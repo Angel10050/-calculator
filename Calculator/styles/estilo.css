@@ -1,0 +1,232 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.calculator input,
+.calc-button   {
+  font-family: 'Space Mono';
+}
+/* button.imgen{
+  background-repeat: no-repeat;
+  background-position-x: 5%;
+  background-image: url('css/ic_delete.svg')
+} */
+
+.calculator .input2{
+  background: none;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  background-color: #303030;
+  padding: 20px 10px;
+  height: 80px;
+  width: 408px;
+  color: #dcdcdc;
+  text-align: right;
+  font-size: 22px;
+  
+}
+button.img{
+  background-image: url(ic_delete.svg);
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  color: rgba(75, 75, 75, 0);
+}
+
+button.img:hover{
+   background-image: url(ic_delete.svg);
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  color: #8a8a8a00;
+}
+
+body          {
+  background: #F6F6F6;
+  padding-bottom: 30px;
+  padding-top: 30px;  
+}
+
+
+.calculator   {
+  max-width: 400px;
+  margin: 0 auto;
+ 
+  
+}
+.calc-button.blue{
+  background-color: #2D3CD8;
+  border: 1px solid #2520209e;
+}
+.calc-button.blue:hover{
+  background-color: rgb(115, 125, 238);
+}
+
+.calculator .input1 {
+  
+    background: none;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    background-color: #303030;
+    padding: 10px 8px 33px;
+    height: 70px;
+    width: 408px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    font-size: 45px;
+  
+}
+
+.calc-buttons{
+  background:#4B4B4B; 
+  border: 1px solid #000000; 
+  padding: 20px;
+  color: #EEE; 
+  border-radius: 1px; 
+  font-size: 24px; 
+  cursor: pointer; 
+}
+
+.calc-button  {
+  background:#4B4B4B; 
+  border: 1px solid #2520209e; 
+  padding: 20px;
+  width: 101px;
+  height: 81px;
+  color: #EEE; 
+  border-radius: 1px; 
+  font-size: 24px; 
+  cursor: pointer; 
+  
+}
+.calc-button:hover{
+  background: #8a8a8aef;
+}
+
+.calculator-buttons {
+    background-color: #121212;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 408px;
+    grid-column-gap: 0px;
+}
+
+.is-zero {
+  border: 1.5px solid #2520209e;
+  grid-column: span 2;
+}
+.is-clear   {
+  border: 1px solid #2520209e;
+  grid-column: span ;
+}
+
+
+.is-equals {
+ border: 1px solid #2520209e;
+  background: #28D060;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+.centrar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+.filas {
+  display: flex;
+  margin: 1px;
+}
+td {
+  margin-right: 1px;
+}
+.text {
+  box-sizing: border-box;
+  height: 180px;
+  width: 408px;
+  border: 1px solid #000000;
+  background-color: #303030;
+}
+.columna1 {
+  box-sizing: border-box;
+  height: 81px;
+  width: 101px;
+  border: 1px solid #000000;
+  background-color: #4b4b4b;
+}
+#cero {
+  box-sizing: border-box;
+  height: 81px;
+  width: 203px;
+  border: 1px solid #000000;
+  background-color: #4b4b4b;
+}
+.columna2 {
+  box-sizing: border-box;
+  height: 81px;
+  width: 101px;
+  border: 1px solid #000000;
+  background-color: #2d3cd8;
+}
+#numero {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: -0.33px;
+  line-height: 29px;
+  text-align: center;
+}
+#signo {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: -0.33px;
+  line-height: 29px;
+  text-align: center;
+} */
